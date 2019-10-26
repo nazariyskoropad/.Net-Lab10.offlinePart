@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emap-offlinePart", "Emap-offlinePart\Emap-offlinePart.csproj", "{854C3E44-30C2-4065-8303-60F281733960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskRunner", "Emap-offlinePart\TaskRunner.csproj", "{854C3E44-30C2-4065-8303-60F281733960}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74462C02-DAE2-46F5-9F54-DD64DA81E63B} = {74462C02-DAE2-46F5-9F54-DD64DA81E63B}
+		{840BD4E9-8F08-4D36-87E8-A5E84DFCB35B} = {840BD4E9-8F08-4D36-87E8-A5E84DFCB35B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printer", "Printer\Printer.csproj", "{840BD4E9-8F08-4D36-87E8-A5E84DFCB35B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{74462C02-DAE2-46F5-9F54-DD64DA81E63B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader", "Reader\Reader.csproj", "{023E3261-7B05-47F4-A0D6-249E4E98A6A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,18 @@ Global
 		{854C3E44-30C2-4065-8303-60F281733960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854C3E44-30C2-4065-8303-60F281733960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854C3E44-30C2-4065-8303-60F281733960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840BD4E9-8F08-4D36-87E8-A5E84DFCB35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840BD4E9-8F08-4D36-87E8-A5E84DFCB35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840BD4E9-8F08-4D36-87E8-A5E84DFCB35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840BD4E9-8F08-4D36-87E8-A5E84DFCB35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74462C02-DAE2-46F5-9F54-DD64DA81E63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74462C02-DAE2-46F5-9F54-DD64DA81E63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74462C02-DAE2-46F5-9F54-DD64DA81E63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74462C02-DAE2-46F5-9F54-DD64DA81E63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023E3261-7B05-47F4-A0D6-249E4E98A6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023E3261-7B05-47F4-A0D6-249E4E98A6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023E3261-7B05-47F4-A0D6-249E4E98A6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023E3261-7B05-47F4-A0D6-249E4E98A6A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
