@@ -9,7 +9,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Printer\Printer.csproj" />
     <ProjectReference Include="..\Reader\Reader.csproj" />
-    <ProjectReference Include="..\Task1\Task1.csproj" />
+    <ProjectReference Include="..\Task1\Task1Part1.csproj" />
+    <ProjectReference Include="..\Task1Part2\Task1Part2.csproj" />
   </ItemGroup>
 
 </Project>
