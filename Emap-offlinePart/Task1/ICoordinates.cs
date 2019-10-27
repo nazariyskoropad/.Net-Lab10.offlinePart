@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Epam.Task1
+namespace Epam.Task1Part1
 {
     interface ICoordinates
     {

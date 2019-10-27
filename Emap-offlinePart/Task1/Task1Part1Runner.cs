@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Epam.Printer;
 using Epam.Reader;
 
-namespace Epam.Task1
+namespace Epam.Task1Part1
 {
     public class Task1Runner
     {
@@ -44,7 +44,9 @@ namespace Epam.Task1
             catch(Exception ex)
             {
                 printer.PrintLine(ex.Message);
-            }       
+            }
+
+            Console.ReadKey();
         }
 
         public static Rectangle ReadRectangle()
@@ -58,7 +60,7 @@ namespace Epam.Task1
             double height = Convert.ToDouble(reader.ReadLine());
 
             if (width <= 0 || height <= 0)
-                throw new ArgumentException("Width and height must pe positive numbers");
+                throw new ArgumentException("Width and height must be positive numbers");
             return new Rectangle
             {
                 Width = width,
