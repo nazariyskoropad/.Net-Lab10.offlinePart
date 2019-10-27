@@ -11,6 +11,7 @@
     <ProjectReference Include="..\Reader\Reader.csproj" />
     <ProjectReference Include="..\Task1\Task1Part1.csproj" />
     <ProjectReference Include="..\Task1Part2\Task1Part2.csproj" />
+    <ProjectReference Include="..\Task2 Exceptions\Task2 Exceptions.csproj" />
   </ItemGroup>
 
 </Project>
