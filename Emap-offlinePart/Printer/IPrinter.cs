@@ -10,5 +10,6 @@ namespace Epam.Printer
     {
         void PrintLine(string text);
         void Print(string text);
+        void Clear();
     }
 }

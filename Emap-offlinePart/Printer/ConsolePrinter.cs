@@ -17,5 +17,10 @@ namespace Epam.Printer
         {
             Console.Write(text);
         }
+
+        void IPrinter.Clear()
+        {
+            Console.Clear();
+        }
     }
 }
