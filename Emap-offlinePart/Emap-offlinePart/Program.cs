@@ -7,6 +7,7 @@ using Epam.Task1Part1;
 using Epam.Task1Part2;
 using Epam.Task2;
 using Epam.Task3;
+using Epam.Task4;
 
 using System.Configuration;
 
@@ -27,9 +28,11 @@ namespace Epam.TaskRunner
             printer.Clear();
             var task2 = new Task2Runner();
             task2.Main();
-
             var task3 = new Task3Runner();
             task3.Main();
+
+            var task4 = new Task4Runner();
+            task4.Main();
 
         }
     }
