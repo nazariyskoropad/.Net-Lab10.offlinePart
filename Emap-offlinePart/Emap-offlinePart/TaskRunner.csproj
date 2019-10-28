@@ -7,11 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Printer\Printer.csproj" />
     <ProjectReference Include="..\Reader\Reader.csproj" />
     <ProjectReference Include="..\Task1\Task1Part1.csproj" />
     <ProjectReference Include="..\Task1Part2\Task1Part2.csproj" />
     <ProjectReference Include="..\Task2 Exceptions\Task2 Exceptions.csproj" />
+    <ProjectReference Include="..\Task3\Task3.csproj" />
   </ItemGroup>
 
 </Project>
