@@ -8,6 +8,7 @@ using Epam.Task1Part2;
 using Epam.Task2;
 using Epam.Task3;
 using Epam.Task4;
+using Epam.Task5;
 
 using System.Configuration;
 
@@ -30,10 +31,10 @@ namespace Epam.TaskRunner
             task2.Main();
             var task3 = new Task3Runner();
             task3.Main();
-
             var task4 = new Task4Runner();
             task4.Main();
-
+            var task5 = new Tusk5Runner();
+            task5.Main();
         }
     }
 }
