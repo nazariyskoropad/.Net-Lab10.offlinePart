@@ -10,7 +10,7 @@ namespace Epam.Printer
 {
     public class FilePrinter : IPrinter
     {
-        private string filePath = Settings.Default.filePath;
+        public string filePath = Settings.Default.filePath;
         void IPrinter.Clear()
         {
             throw new NotImplementedException();

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Epam.Task3;
 using Epam.Printer;
 using Epam.Reader;
+using TaskFromSkype1Variant2.Properties;
 
 namespace Epam.TaskFromSkype1Variant2
 {
@@ -73,6 +74,7 @@ namespace Epam.TaskFromSkype1Variant2
         private void FilePrint(List<string> commonFiles, List<string> uniqueFiles)
         {
             IPrinter printer = new FilePrinter();
+            (printer as FilePrinter).filePath = Settings.Default.pathFile;
 
             printer.PrintLine("\t\t\nCommon files");
             foreach (var file in commonFiles)

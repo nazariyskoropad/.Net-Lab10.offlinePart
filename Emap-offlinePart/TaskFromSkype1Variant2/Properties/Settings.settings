@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TaskFromSkype1Variant2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="pathFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\.Net-Lab10\offlinePartNew\.Net-Lab10.offlinePart\Emap-offlinePart\TaskFromSkype1Variant2\list.csv</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
