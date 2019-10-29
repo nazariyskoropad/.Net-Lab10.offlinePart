@@ -8,6 +8,8 @@ using Epam.Task2;
 using Epam.Task3;
 using Epam.Task4;
 using Epam.Task5;
+using Epam.Task6;
+using Epam.TaskFromSkype1Variant2;
 using Epam.Logger;
 
 using System.Configuration;
@@ -20,32 +22,82 @@ namespace Epam.TaskRunner
         static void Main(string[] args)
         {
             IPrinter printer = new ConsolePrinter();
-
-            //var task1Part1 = new Task1Runner();
-            //task1Part1.Main();
-            //printer.Clear();
-            //var task1Part2 = new Task1Part2Runner();
-            //task1Part2.Main();
-            //printer.Clear();
-            //var task2 = new Task2Runner();
-            //task2.Main();
-            //var task3 = new Task3Runner();
-            //task3.Main();
-            //var task4 = new Task4Runner();
-            //task4.Main();
-            //var task5 = new Tusk5Runner();
-            //task5.Main();
-            var logger = new LoggerCreator();
-            try
+            IReader reader = new ConsoleReader();
+            while (true)
             {
-                int t = 0;
-                int x = t/t;
+                printer.PrintLine("Enter task number to run task (1-7) or any other value to quit");
+                string taskNumber = reader.ReadLine();
+                bool continueLooping = true;
+                switch (taskNumber)
+                {
+                    case "1":
+                        {
+                            printer.PrintLine("Enter part number to run task (1 or 2) or any other value to quit");
+                            string partNumber = reader.ReadLine();
+                            switch (partNumber)
+                            {
+                                case "1":
+                                    {
+                                        var task1Part1 = new Task1Runner();
+                                        task1Part1.Main();
+                                        break;
+                                    }
+                                case "2":
+                                    {
+                                        var task1Part2 = new Task1Part2Runner();
+                                        task1Part2.Main();
+                                        break;
+                                    }
+                                default:
+                                    break;
+                            }
+                            break;
+                        }
+                    case "2":
+                        {
+                            var task2 = new Task2Runner();
+                            task2.Main();
+                            break;
+                        }
+                    case "3":
+                        {
+                            var task3 = new Task3Runner();
+                            task3.Main();
+                            break;
+                        }
+                    case "4":
+                        {
+                            var task4 = new Task4Runner();
+                            task4.Main();
+                            break;
+                        }
+                    case "5":
+                        {
+                            var task5 = new Tusk5Runner();
+                            task5.Main();
+                            break;
+                        }
+                    case "6":
+                        {
+                            var task6 = new Task6Runner();
+                            task6.Main();
+                            break;
+                        }
+                    case "7":
+                        {
+                            var task7 = new Task7Runner();
+                            task7.Main();
+                            break;
+                        }
+                    default:
+                        {
+                            continueLooping = false;
+                            break;
+                        }
+                }
+                if (!continueLooping)
+                    break;
             }
-            catch(Exception ex)
-            { 
-            logger.Log(LogTarget.File, "Problem", ex, LogLevel.Debug);
-            logger.Log(LogTarget.Console, "Problem", LogLevel.Error);
-            }
-        }
+        }     
     }
 }
