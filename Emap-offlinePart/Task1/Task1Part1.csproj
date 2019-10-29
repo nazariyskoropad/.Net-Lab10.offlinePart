@@ -49,6 +49,10 @@
     <Compile Include="Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{efd778af-b5c1-458c-864d-12d0da2313a7}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Printer\Printer.csproj">
       <Project>{840bd4e9-8f08-4d36-87e8-a5e84dfcb35b}</Project>
       <Name>Printer</Name>
