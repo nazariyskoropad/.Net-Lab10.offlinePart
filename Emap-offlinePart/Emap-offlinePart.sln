@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "Task5\Task5.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{EFD778AF-B5C1-458C-864D-12D0DA2313A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6", "Task6\Task6.csproj", "{14699CE4-C8A6-488E-86C5-F122819A9260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromSkype1Variant2", "TaskFromSkype1Variant2\TaskFromSkype1Variant2.csproj", "{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,14 @@ Global
 		{EFD778AF-B5C1-458C-864D-12D0DA2313A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD778AF-B5C1-458C-864D-12D0DA2313A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFD778AF-B5C1-458C-864D-12D0DA2313A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14699CE4-C8A6-488E-86C5-F122819A9260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14699CE4-C8A6-488E-86C5-F122819A9260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14699CE4-C8A6-488E-86C5-F122819A9260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14699CE4-C8A6-488E-86C5-F122819A9260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
