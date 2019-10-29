@@ -31,10 +31,12 @@ namespace Epam.Task3
             for (int i = 0; i < 2 - depth; i++)
                 dashes[i] = '-';
 
-            fileList.Add(new string(dashes) + dir.FullName.ToString());
+            // fileList.Add(new string(dashes) + dir.FullName.ToString());
+            fileList.Add(dir.FullName.ToString());
 
             foreach (var file in dir.GetFiles())
-                fileList.Add(new string(dashes) + "-" + file.Name);
+                // fileList.Add(new string(dashes) + "-" + file.Name);
+                fileList.Add(file.Name);
 
             foreach (var subdir in dir.GetDirectories())
                 fileList.AddRange(GetFilesFromDirectory(subdir.FullName, --depth));
