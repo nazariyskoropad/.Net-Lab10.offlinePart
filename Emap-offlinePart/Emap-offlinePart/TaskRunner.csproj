@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Syncfusion.Xamarin.XlsIO" Version="17.3.0.21" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
   </ItemGroup>
 
@@ -23,6 +24,7 @@
     <ProjectReference Include="..\Task4\Task4.csproj" />
     <ProjectReference Include="..\Task5\Task5.csproj" />
     <ProjectReference Include="..\Task6\Task6.csproj" />
+    <ProjectReference Include="..\TaskFromSkype1Variant1\TaskFromSkype1Variant1.csproj" />
     <ProjectReference Include="..\TaskFromSkype1Variant2\TaskFromSkype1Variant2.csproj" />
   </ItemGroup>
 

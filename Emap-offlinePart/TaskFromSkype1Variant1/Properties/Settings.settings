@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TaskFromSkype1Variant1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="inputFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\.Net-Lab10\offlinePartNew\.Net-Lab10.offlinePart\Emap-offlinePart\TaskFromSkype1Variant1\input.xlsx</Value>
+    </Setting>
+    <Setting Name="outputFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..D:\.Net-Lab10\offlinePartNew\.Net-Lab10.offlinePart\Emap-offlinePart\TaskFromSkype1Variant1\output.xlsx</Value>
+    </Setting>
+    <Setting Name="firstColumn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"A"</Value>
+    </Setting>
+    <Setting Name="secondColumn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"B"</Value>
+    </Setting>
+    <Setting Name="firstStartIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="secondStartIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="outputTarget" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Console</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
