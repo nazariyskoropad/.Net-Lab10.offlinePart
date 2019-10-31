@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Calculator\Calculator.csproj" />
     <ProjectReference Include="..\Logger\Logger.csproj" />
     <ProjectReference Include="..\Printer\Printer.csproj" />
     <ProjectReference Include="..\Reader\Reader.csproj" />

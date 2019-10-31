@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6", "Task6\Task6.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromSkype1Variant2", "TaskFromSkype1Variant2\TaskFromSkype1Variant2.csproj", "{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{977B309C-439E-48D4-A58C-7F79C178CABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromSkype1Variant1", "TaskFromSkype1Variant1\TaskFromSkype1Variant1.csproj", "{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +89,14 @@ Global
 		{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5228DCCE-A5DF-4B0D-9044-CA8882E1D756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977B309C-439E-48D4-A58C-7F79C178CABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977B309C-439E-48D4-A58C-7F79C178CABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977B309C-439E-48D4-A58C-7F79C178CABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977B309C-439E-48D4-A58C-7F79C178CABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
