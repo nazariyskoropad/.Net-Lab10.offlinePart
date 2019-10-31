@@ -7,6 +7,7 @@ using Epam.Task3;
 using Epam.Printer;
 using Epam.Reader;
 using TaskFromSkype1Variant2.Properties;
+using System.Diagnostics;
 
 namespace Epam.TaskFromSkype1Variant2
 {
@@ -27,8 +28,11 @@ namespace Epam.TaskFromSkype1Variant2
                 var path2 = reader.ReadLine();
                 var fileList2 = DirectoryVisualizer.GetFilesFromDirectory(path2);
 
+                var watch = new Stopwatch();
+                watch.Start();
                 var uniqueFiles = CompareFiles.GetUniqueFiles(fileList1 as List<string>, fileList2 as List<string>);
                 var commonFiles = CompareFiles.GetCommonFiles(fileList1 as List<string>, fileList2 as List<string>);
+                watch.Stop();
 
                 printer.PrintLine("Enter 1 to print info on console or 2 to print info to file");
                 string FileOrConsole = reader.ReadLine();
@@ -36,12 +40,12 @@ namespace Epam.TaskFromSkype1Variant2
                 {
                     case "1":
                         {
-                            ConsolePrint(commonFiles.ToList(), uniqueFiles.ToList());
+                            Print(commonFiles.ToList(), uniqueFiles.ToList(), new ConsolePrinter());                           
                             break;
                         }
                     case "2":
-                        {
-                            FilePrint(commonFiles.ToList(), uniqueFiles.ToList());
+                        {                      
+                            Print(commonFiles.ToList(), uniqueFiles.ToList(), new FilePrinter());
                             break;
                         }
                     default:
@@ -50,6 +54,8 @@ namespace Epam.TaskFromSkype1Variant2
                             break;
                         }
                 }
+
+                printer.PrintLine("\nExecution task time = " + watch.ElapsedMilliseconds + " ms");
             }
             catch (Exception ex)
             {
@@ -58,9 +64,9 @@ namespace Epam.TaskFromSkype1Variant2
             }
 
         }
-        private void ConsolePrint(List<string> commonFiles, List<string> uniqueFiles)
+        private void Print(List<string> commonFiles, List<string> uniqueFiles, IPrinter _printer)
         {
-            IPrinter printer = new ConsolePrinter();
+            IPrinter printer = _printer;
             printer.PrintLine("\n\n\tUnique Files:");
             foreach (var file in uniqueFiles)
                 printer.PrintLine(file);
@@ -69,21 +75,8 @@ namespace Epam.TaskFromSkype1Variant2
             foreach (var file in commonFiles)
                 printer.PrintLine(file);
             printer.PrintLine("Number of common files = " + commonFiles.ToList().Count);
+            printer.PrintLine("-----------------------------------");
         }
-
-        private void FilePrint(List<string> commonFiles, List<string> uniqueFiles)
-        {
-            IPrinter printer = new FilePrinter();
-            (printer as FilePrinter).filePath = Settings.Default.pathFile;
-
-            printer.PrintLine("\t\t\nCommon files");
-            foreach (var file in commonFiles)
-                printer.PrintLine(file);
-            printer.PrintLine("Number of common files = " + commonFiles.ToList().Count);
-
-            printer.PrintLine("\t\t\nUnique Files");
-            foreach (var file in uniqueFiles)
-                printer.PrintLine(file);         
-        }
+       
     }
 }

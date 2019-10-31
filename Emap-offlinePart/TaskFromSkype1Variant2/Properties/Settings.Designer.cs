@@ -25,8 +25,7 @@ namespace TaskFromSkype1Variant2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\.Net-Lab10\\offlinePartNew\\.Net-Lab10.offlinePart\\Emap-offlinePart\\TaskFromSkyp" +
-            "e1Variant2\\list.csv")]
+        [global::System.Configuration.DefaultSettingValueAttribute("..\\TaskFromSkype1Variant2\\list.csv")]
         public string pathFile {
             get {
                 return ((string)(this["pathFile"]));

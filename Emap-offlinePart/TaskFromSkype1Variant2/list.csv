@@ -1,59 +1,48 @@
+Number of common files = 8
 
-D:\1univer\Semester_3\Comp arch
-lab1.zip
-lab2.zip
-lab3.zip
-lab4.1.zip
-~$актична1_звіт.docx
-АК практика2 .docx
-АК практика2 назік .docx
-Практична1_звіт.docx
-D:\1univer\Semester_3\Comp arch\lab1
-Backup Of New Project.pdsbak
-Last Loaded New Project.pdsbak
-New Project.pdsprj
-New Project.pdsprj.DESKTOP-6L9NJUV.Asus.workspace
-Zvit1_Skoropad.docx
-D:\1univer\Semester_3\Comp arch\lab2
-Lab_2.docx
-Zvit2.docx
-D:\1univer\Semester_3\Comp arch\lab2\lab1
-D:\1univer\Semester_3\Comp arch\lab3
-Zvit3.docx
-D:\1univer\Semester_3\Comp arch\lab3\lab1
-D:\1univer\Semester_3\Comp arch\lab4
-D:\1univer\Semester_3\Comp arch\lectures
-Лекція_1 Загальні відомості про комп’ютери.docx
-Лекція_2 Функціональні елементи та вузли комп’ютера.docx
-Лекція_3 Мови описування цифрових пристроїв.docx
-D:\1univer\Semester_3\Comp arch\Proteus Professional 8.8 SP1
-proteus8.8.SP1.exe
-D:\1univer\Semester_3\Comp arch\Proteus Professional 8.8 SP1\BIN
-APPFRAME.DLL
-ISIS.DLL
-LICENCE.DLL
-D:\1univer\Semester_3\Comp arch\Proteus Professional 8.8 SP1\Crack
-files.zip
-Licence.lxk
-readme.pdf
-Readme.txt
-D:\1univer\Semester_3\Comp arch\Proteus Professional 8.8 SP1\MODELS
-AVR.DLL
-AVR2.DLL
-i8086.DLL
-KEYPAD.DLL
-LCDALPHA.DLL
-LCDPIXEL.DLL
-LEDMPX.DLL
-MCS8051.DLL
-pic16.DLL
-PIC16EX.DLL
-PIC18.DLL
-READOUT.DLL
-VTERM.DLL
-D:\1univer\Semester_3\Comp arch\lab4.1
-laba4_ak.pdsprj
-laba4_ak.pdsprj.DESKTOP-6L9NJUV.Asus.workspace
-Last Loaded laba4_ak.pdsbak
-Zvit_4.docx
-Number of common files = 5
+
+	Unique Files:
+D:\1univer\Semester 2\vipz\lab 2
+Звіт2.docx
+
+
+	Common Files:
+D:\1univer\Semester 2\vipz\lab 2\visio
+My stencil.vssx
+структури даних.vsdx
+функція CheckOnMIstakes.vsdx
+Функція Main.vsdx
+функція PrintAll.vsdx
+Number of common files = 6
+
+
+	Unique Files:
+D:\clean code\aircompany-master
+.gitignore
+CONTRIBUTORS.md
+LICENSE
+pom.xml
+README.md
+
+
+	Common Files:
+D:\clean code\aircompany-master\src
+D:\clean code\aircompany-master\src\main
+D:\clean code\aircompany-master\src\main\java
+Airport.java
+Runner.java
+D:\clean code\aircompany-master\src\main\java\models
+ClassificationLevel.java
+ExperimentalTypes.java
+MilitaryType.java
+D:\clean code\aircompany-master\src\main\java\Planes
+experimentalPlane.java
+MilitaryPlane.java
+MyPlane.java
+PassengerPlane.java
+Plane.java
+D:\clean code\aircompany-master\src\test
+D:\clean code\aircompany-master\src\test\java
+AirportTest.java
+Number of common files = 18
+-----------------------------------
