@@ -12,6 +12,7 @@ using Epam.Task6;
 using Epam.TaskFromSkype1Variant2;
 using Epam.Logger;
 using Epam.Calc;
+using Epam.Task7;
 
 using System.Configuration;
 
@@ -26,7 +27,7 @@ namespace Epam.TaskRunner
             IReader reader = new ConsoleReader();
             while (true)
             {
-                printer.PrintLine("Enter task number to run task (1-6) or `calc` or `skypetask` or any other value to quit");
+                printer.PrintLine("Enter task number to run task (1-7) or `calc` or `skypetask` or any other value to quit");
                 string taskNumber = reader.ReadLine();
                 bool continueLooping = true;
                 switch (taskNumber)
@@ -84,6 +85,12 @@ namespace Epam.TaskRunner
                             task6.Main();
                             break;
                         }
+                    case "7":
+                        {
+                            var task7 = new Epam.Task7.Task7Runner();
+                            task7.Main();
+                            break;
+                        }
                     case "skypetask":
                         {
                             printer.PrintLine("Enter variant" +
@@ -93,14 +100,14 @@ namespace Epam.TaskRunner
                             {
                                 case "1":
                                     {
-                                        var task7 = new Epam.TaskFromSkype1Variant1.Task7Runner();
-                                        task7.Main();
+                                        var skypetask = new Epam.TaskFromSkype1Variant1.Task7Runner();
+                                        skypetask.Main();
                                         break;
                                     }
                                 case "2":
                                     {
-                                        var task7 = new Epam.TaskFromSkype1Variant2.Task7Runner();
-                                        task7.Main();
+                                        var skypetask = new Epam.TaskFromSkype1Variant2.Task7Runner();
+                                        skypetask.Main();
                                         break;
                                     }
                                 default:
@@ -123,7 +130,7 @@ namespace Epam.TaskRunner
                 }
                 if (!continueLooping)
                     break;
-            }         
+            }     
         }     
     }
 }
