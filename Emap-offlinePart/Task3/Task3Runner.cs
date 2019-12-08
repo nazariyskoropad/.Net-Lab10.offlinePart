@@ -1,12 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Epam.Printer;
 using Epam.Reader;
-using System.Configuration;
 
 namespace Epam.Task3
 {

@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Syncfusion.XlsIO;
 using Epam.Printer;
 using System.Diagnostics;
 using TaskFromSkype1Variant1.Properties;

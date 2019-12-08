@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromSkype1Variant1", "TaskFromSkype1Variant1\TaskFromSkype1Variant1.csproj", "{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7", "Task7\Task7.csproj", "{7D7CC017-5806-4472-94C3-31B64CEE471C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC container", "IoC container\IoC container.csproj", "{2B124DDC-9C16-4AD2-A440-00F3ED85CFEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,14 @@ Global
 		{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260CA86C-3002-426A-B3D9-A9F1CDBE5D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7CC017-5806-4472-94C3-31B64CEE471C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7CC017-5806-4472-94C3-31B64CEE471C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7CC017-5806-4472-94C3-31B64CEE471C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7CC017-5806-4472-94C3-31B64CEE471C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B124DDC-9C16-4AD2-A440-00F3ED85CFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B124DDC-9C16-4AD2-A440-00F3ED85CFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B124DDC-9C16-4AD2-A440-00F3ED85CFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B124DDC-9C16-4AD2-A440-00F3ED85CFEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Xml.Serialization;
-using System.Runtime.Serialization.Json;
 using Epam.Printer;
 
 namespace Epam.Task4
@@ -48,6 +44,8 @@ namespace Epam.Task4
             {
                 printer.PrintLine(ex.Message);
             }
+
+            printer.PrintLine("All objects were successfully serialized");
         }  
         public List<Car> GetCars()
         {

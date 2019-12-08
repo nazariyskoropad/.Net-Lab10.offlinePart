@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Epam.Task6
+﻿namespace Epam.Task6
 {
     public class Task6Runner
     {

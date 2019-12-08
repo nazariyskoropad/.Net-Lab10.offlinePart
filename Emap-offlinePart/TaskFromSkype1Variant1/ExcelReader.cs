@@ -1,18 +1,16 @@
 ﻿using Syncfusion.XlsIO;
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Epam.TaskFromSkype1Variant1
 {
+    /// <summary>
+    /// Contains a method that reads info from excel file
+    /// </summary>
     public class ExcelReader
     {
         public IDictionary<string, string> GetData(string columnName, int startRange, string inputFileName)
         {
-            //List<string> elements = null;
             Dictionary<string, string> elements = new Dictionary<string, string>();
 
             using (FileStream inputStream = new FileStream(inputFileName, FileMode.Open))
@@ -34,7 +32,6 @@ namespace Epam.TaskFromSkype1Variant1
                 }
                 while (!string.IsNullOrWhiteSpace(data));
             }
-
             return elements;
         }
     }

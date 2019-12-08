@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Epam.Printer;
 
 namespace Epam.Task6

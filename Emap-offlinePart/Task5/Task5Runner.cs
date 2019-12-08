@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Linq;
-using System.Reflection;
 using Epam.Printer;
 using Epam.Reader;
 
 namespace Epam.Task5
-{ 
+{
     public class Tusk5Runner
     {
         public void Main()

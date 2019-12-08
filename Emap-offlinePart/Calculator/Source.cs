@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Epam.Calc
+﻿namespace Epam.Calc
 {
     public enum Source
     {

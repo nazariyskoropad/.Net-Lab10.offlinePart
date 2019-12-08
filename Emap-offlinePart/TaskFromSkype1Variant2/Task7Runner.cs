@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Epam.Task3;
 using Epam.Printer;
 using Epam.Reader;
-using TaskFromSkype1Variant2.Properties;
 using System.Diagnostics;
 
 namespace Epam.TaskFromSkype1Variant2

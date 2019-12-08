@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-/*
+﻿/*
 namespace Epam.Task6
 {
     public class Operations<T>

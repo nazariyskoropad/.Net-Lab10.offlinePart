@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 using Epam.Printer;
 using Epam.Reader;
 using Epam.Task1Part1;
@@ -9,19 +8,18 @@ using Epam.Task3;
 using Epam.Task4;
 using Epam.Task5;
 using Epam.Task6;
-using Epam.TaskFromSkype1Variant2;
-using Epam.Logger;
 using Epam.Calc;
-using Epam.Task7;
-
-using System.Configuration;
 
 namespace Epam.TaskRunner
 {
     class Program
     {
-        
         static void Main(string[] args)
+        {
+            RunMenu();
+        }     
+
+        private static void RunMenu()
         {
             IPrinter printer = new ConsolePrinter();
             IReader reader = new ConsoleReader();
@@ -114,12 +112,12 @@ namespace Epam.TaskRunner
                                     break;
                             }
                             break;
-                           
+
                         }
                     case "calc":
                         {
                             var taskCalc = new CalculatorRunner();
-                            taskCalc.Main();                           
+                            taskCalc.Main();
                             break;
                         }
                     default:
@@ -130,7 +128,7 @@ namespace Epam.TaskRunner
                 }
                 if (!continueLooping)
                     break;
-            }     
-        }     
+            }
+        }
     }
 }
