@@ -1,5 +1,4 @@
-﻿
-using Epam.Printer;
+﻿using Epam.Printer;
 using Epam.Reader;
 using Epam.Task1Part1;
 using Epam.Task1Part2;
@@ -9,6 +8,7 @@ using Epam.Task4;
 using Epam.Task5;
 using Epam.Task6;
 using Epam.Calc;
+using Epam.DiService;
 
 namespace Epam.TaskRunner
 {
@@ -17,7 +17,7 @@ namespace Epam.TaskRunner
         static void Main(string[] args)
         {
             RunMenu();
-        }     
+        }
 
         private static void RunMenu()
         {
@@ -25,7 +25,7 @@ namespace Epam.TaskRunner
             IReader reader = new ConsoleReader();
             while (true)
             {
-                printer.PrintLine("Enter task number to run task (1-7) or `calc` or `skypetask` or any other value to quit");
+                printer.PrintLine("Enter task number to run task (1-7) or `calc` or `skypetask` or `di` or any other value to quit");
                 string taskNumber = reader.ReadLine();
                 bool continueLooping = true;
                 switch (taskNumber)
@@ -118,6 +118,12 @@ namespace Epam.TaskRunner
                         {
                             var taskCalc = new CalculatorRunner();
                             taskCalc.Main();
+                            break;
+                        }
+                    case "di":
+                        {
+                            var di = new Epam.DiService.TaskRunner();
+                            di.Main();
                             break;
                         }
                     default:
