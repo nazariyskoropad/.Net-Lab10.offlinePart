@@ -16,7 +16,7 @@ namespace Epam.TaskRunner
     {
         static void Main(string[] args)
         {
-            RunMenu();
+              RunMenu();
         }
 
         private static void RunMenu()
@@ -25,7 +25,7 @@ namespace Epam.TaskRunner
             IReader reader = new ConsoleReader();
             while (true)
             {
-                printer.PrintLine("Enter task number to run task (1-7) or `calc` or `skypetask` or `di` or any other value to quit");
+                printer.PrintLine("Enter task number to run task (1-7) or enter using keyboard:\n`calc` or `skypetask` or `di` or `reflection` or any other value to quit");
                 string taskNumber = reader.ReadLine();
                 bool continueLooping = true;
                 switch (taskNumber)
@@ -124,6 +124,12 @@ namespace Epam.TaskRunner
                         {
                             var di = new Epam.DiService.TaskRunner();
                             di.Main();
+                            break;
+                        }
+                    case "reflection":
+                        {
+                            var reflectionTusk = new Epam.Reflection.TaskRunner();
+                            reflectionTusk.Main();
                             break;
                         }
                     default:
