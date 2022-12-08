@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Syncfusion.Xamarin.XlsIO" Version="17.3.0.21" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
   </ItemGroup>
